@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Greek-Phil-and-Lit/static/css/main.c2878f72.css",
+    "main.js": "/Greek-Phil-and-Lit/static/js/main.932544ca.js",
+    "static/media/philosphy.jpg": "/Greek-Phil-and-Lit/static/media/philosphy.254b944678a1007934dc.jpg",
+    "static/media/hesiod.png": "/Greek-Phil-and-Lit/static/media/hesiod.8ee45c5cfaa21f2fd612.png",
+    "static/media/society.png": "/Greek-Phil-and-Lit/static/media/society.4eed29868c9e2c9cf4ad.png",
+    "static/media/literature.png": "/Greek-Phil-and-Lit/static/media/literature.3864df49098471eb82f6.png",
+    "static/media/socratesPFP.png": "/Greek-Phil-and-Lit/static/media/socratesPFP.a2b3c21d041bdb9a221b.png",
+    "static/media/plato.png": "/Greek-Phil-and-Lit/static/media/plato.f1d3ce55fd0d9667a323.png",
+    "static/media/socrates.png": "/Greek-Phil-and-Lit/static/media/socrates.af16c4e4cf7d00352c67.png",
+    "static/media/aristotle.png": "/Greek-Phil-and-Lit/static/media/aristotle.5dea028feb37555352f6.png",
+    "static/media/homer.png": "/Greek-Phil-and-Lit/static/media/homer.877c14ea28d67b0af3e7.png",
+    "static/media/platoAcademy.png": "/Greek-Phil-and-Lit/static/media/platoAcademy.beed8524ba0abda25d62.png",
+    "static/media/aristotle2.png": "/Greek-Phil-and-Lit/static/media/aristotle2.6fda027cb29d996f2ade.png",
+    "static/media/why.png": "/Greek-Phil-and-Lit/static/media/why.0698f6503226eb88af72.png",
+    "static/media/smallbrain.png": "/Greek-Phil-and-Lit/static/media/smallbrain.fa7cfede7d2dca827648.png",
+    "static/media/fallacy.png": "/Greek-Phil-and-Lit/static/media/fallacy.8e6ca7b9ca6ac8c93997.png",
+    "index.html": "/Greek-Phil-and-Lit/index.html",
+    "main.c2878f72.css.map": "/Greek-Phil-and-Lit/static/css/main.c2878f72.css.map",
+    "main.932544ca.js.map": "/Greek-Phil-and-Lit/static/js/main.932544ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2878f72.css",
+    "static/js/main.932544ca.js"
+  ]
+}
