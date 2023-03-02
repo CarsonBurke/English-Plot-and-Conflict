@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+    font-family: "Material Icons";
+    font-style: normal;
+    line-height: 1;
+    src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"), url(https://example.com/MaterialIcons-Regular.woff) format("woff"), url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: unset;
+    font-family: "Poppins", "sans-serif";
+    font-weight: unset;
+    text-decoration: unset;
+    color: unset;
+    scroll-behavior: smooth;
+}
+
+.material-icons-outlined {}
+
+body {
+    background-color: var(--primary);
+    color: rgb(255, 255, 255);
+    --main: rgb(0, 108, 250);
+    --primary: rgb(36, 42, 53);
+    --secondary: rgb(59, 59, 59);
+    --tertiary: rgb(38, 41, 46);
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+main {}
+
+a {
+    display: block;
+}
+
+.textLeft {
+    align-self: left;
+    text-align: left;
+}
+
+.textCenter {
+    align-self: center;
+    text-align: center;
+}
+
+.headerMassive {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+.headerBig {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.headerMid {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 60%;
+}
+
+.container {
+    padding: 10px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.BGMain {
+    background: var(--main);
+}
+
+.BGPrimary {
+    background: var(--primary);
+}
+
+.BGSecondary {
+    background: var(--secondary);
+}
+
+.BGTertiary {
+    background: var(--tertiary);
+}
+
+.button {
+    outline: none;
+    transition: all 0.2s;
+    padding: 8px 30px;
+    border-radius: 6px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 1px 8px 0;
+    position: relative;
+    top: 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0 8px 28px 0, inset rgba(0, 0, 0, 0.2) 0 0 0 1000px;
+}
+
+.button:active {
+    top: -4px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 16px 28px 0, inset rgba(0, 0, 0, 0.2) 0 0 0 1000px;
+}
+
+.hidden {
+    display: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexCenter {
+    justify-content: center;
+}
+
+.seperateContents {
+    gap: 10px;
+}
+
+.blockParent {
+    margin: 20px 0;
+    padding: 20px 10px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 10px 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blockImage {
+    width: 80%;
+    max-width: 50vw;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 10px 40px 0;
+    user-select: none;
+}
