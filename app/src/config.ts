@@ -1,4 +1,4 @@
-import society from './images/society.png'
+
 
 export interface SlideChild {
     title: string
@@ -19,18 +19,235 @@ export interface SlideType {
 
 export const slides: SlideType[] = [
     {
-        BGImage: require('./images/society.png'),
+        BGImage: require('./images/restaurant.jpg'),
         slideChildren: [
             {
-                title: 'Greek Philosophy and Literature',
+                title: 'Plot and Conflict',
                 texts: [
-                    `By Carson Burke`,
+                    `Featuring "The Guest" By Lord Dunsany`,
+                    `CONTENT WARNING: discussion of suicide`,
+                    `Built using Carson Slides™`,
                 ],
                 align: 'center',
                 theme: 'glassWhite',
             },
         ]
     },
+    {
+        BGImage: require('./images/dictionary.png'),
+        slideChildren: [
+            {
+                title: 'Defining Plot and Conflict',
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Plot',
+                texts: [
+                    `Significant events of the story`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Conflict',
+                texts: [
+                    `Struggle between protagonist and antagonist`,
+                    `Often idealogical contrast`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+        ],
+    },
+    {
+        BGImage: require('./images/plotDiagram.png'),
+        slideChildren: [
+            {
+                title: 'Plot of The Guest',
+                align: 'center',
+                theme: 'glassBlack',
+            },
+            {
+                title: 'Plot Summary',
+                texts: [
+                    `Introduction and coffee`,
+                    `Dialogue on death`,
+                    `Reveal and the end`,
+                ],
+                align: 'center',
+                theme: 'glassBlack',
+            },
+        ]
+    },
+    {
+        BGImage: require('./images/conflict.png'),
+        slideChildren: [
+            {
+                title: 'Conflict',
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Internal conflict',
+                texts: [
+                    `Deliberation on suicide`,
+                    ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'External conflict',
+                texts: [
+                    `Rejected by a girl`,
+                    ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+        ]
+    },
+    {
+        BGImage: require('./images/coffee.jpg'),
+        slideChildren: [
+            {
+                title: 'Plot and Conflict: In Depth',
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Protagonist - Young Man',
+                texts: [
+                    `Working up to ask his favour`,
+                    `Rejected by a girl`,
+                    `Invited Guest instead`
+                    ],
+                image: require('./images/youngMan.png'),
+                align: 'left',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Antagonist 1 - The Guest',
+                texts: [
+                    `Ominous person`,
+                    `Revealed as protagonist speaks`,
+                    `Exposed by the end`,
+                ],
+                image: require('./images/guest.png'),
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Antagonist 2 - Himself',
+                texts: [
+                    `Sadness from rejection`,
+                    `Suicidal thoughts`,
+                ],
+                image: require('./images/youngMan.png'),
+                align: 'right',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Suspense - Anxiety over Conflict',
+                texts: [
+                    `"You probably won't see him till the coffee comes" (355)`,
+                    `Who is the guest?`,
+                    `Exentuated by protagonist's monologue`
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Dilemma - Making difficult choices',
+                texts: [
+                    `"Well, you probably want to be going. I haven't taken you too much out of your way" (356)`,
+                    `Postponing his decision`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Ending',
+                texts: [
+                    `Suicide, The Guest reveal`,
+                    `Deterministic?`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+            {
+                title: 'Artistic Unity',
+                texts: [
+                    `There is strong artistic unity`,
+                    `So short because everything is relevant`,
+                    `We'll explain later`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+        ],
+    },
+    {
+        BGImage: require('./images/analysis.jpg'),
+        slideChildren: [
+            {
+                title: 'Analysis',
+                align: 'center',
+                theme: 'glassBlack',
+            },
+            {
+                title: 'Artistic Unity',
+                texts: [
+                    `Every part furthers the plot`,
+                    `Consistency - starts and ends with coffee`,
+                ],
+                align: 'center',
+                theme: 'glassBlack',
+            },
+            {
+                title: 'Irony',
+                texts: [
+                    `History-inept would experience situational irony`,
+                    `Irony for those who miss the conflict`
+                ],
+                align: 'center',
+                theme: 'glassBlack',
+            },
+            {
+                title: 'Symbol',
+                texts: [
+                    `The Guest - Death`,
+                    `Protagonist - suicide victim`,
+                    `Love interest - suicide instigator`,
+                ],
+                align: 'center',
+                theme: 'glassBlack',
+            },
+            {
+                title: 'Setting / Atmosphere',
+                texts: [
+                    `London, fancy restaurant, pre WW1`,
+                    `We expect a date, get a suicide`,
+                ],
+                align: 'center',
+                theme: 'glassBlack',
+            },
+        ]
+    },
+    {
+        BGImage: require('./images/restaurant.png'),
+        slideChildren: [
+            {
+                title: 'Conclusion',
+                texts: [
+                    `Can learn about plot and conflict from "The Guest"`,
+                    `Multisectional requirements to interpret`,
+                    `Other elements enhance plot and conflict`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+        ]
+    }
 /*     
     {
         BGImage: require('./images/society.png'),
