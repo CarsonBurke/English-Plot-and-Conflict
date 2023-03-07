@@ -31,6 +31,20 @@ export const slides: SlideType[] = [
             },
         ]
     },
+/*     
+    {
+        BGImage: require('./images/society.png'),
+        slideChildren: [
+            {
+                title: 'Greek Philosophy and Literature',
+                texts: [
+                    `By Carson Burke`,
+                ],
+                align: 'center',
+                theme: 'glassWhite',
+            },
+        ]
+    },
     {
         BGImage: require('./images/literature.png'),
         slideChildren: [
@@ -175,5 +189,5 @@ export const slides: SlideType[] = [
                 theme: 'glassWhite',
             },
         ]
-    },
+    }, */
 ]
